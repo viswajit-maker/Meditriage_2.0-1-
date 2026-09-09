@@ -1,0 +1,11 @@
+flask
+flask-cors
+flask-talisman
+flask-sqlalchemy
+cryptography
+Pillow
+python-magic-bin
+flask-jwt-extended
+APScheduler
+scikit-learn
+requests

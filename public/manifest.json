@@ -1,0 +1,17 @@
+{
+  "name": "MediTriage AI",
+  "short_name": "MediTriage",
+  "description": "AI-Powered Smart Triage & Healthcare Navigation System",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1e",
+  "theme_color": "#0a0f1e",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

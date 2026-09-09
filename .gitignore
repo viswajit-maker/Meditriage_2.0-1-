@@ -1,0 +1,13 @@
+node_modules/
+*/node_modules/
+.env
+.env.*
+backend/.env
+backend/.env.*
+__pycache__/
+*.pyc
+backend/meditriage.db
+backend/image_store/
+*.db
+dist/
+*.log
