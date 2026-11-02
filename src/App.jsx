@@ -7,6 +7,7 @@ import Dashboard from './pages/Dashboard';
 import Navigation from './pages/Navigation';
 import Booking from './pages/Booking';
 import About from './pages/About';
+import Chatbot from './pages/Chatbot';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/navigation" element={<Navigation />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/about" element={<About />} />
+          <Route path="/chatbot" element={<Chatbot />} />
         </Route>
       </Routes>
     </BrowserRouter>

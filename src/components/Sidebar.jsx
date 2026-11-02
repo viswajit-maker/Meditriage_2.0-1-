@@ -7,6 +7,7 @@ import {
   MapPin,
   CalendarCheck,
   HeartPulse,
+  MessageCircle,
 } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 
@@ -14,6 +15,7 @@ const links = [
   { to: '/', icon: Home, label: 'home' },
   { to: '/triage', icon: ClipboardList, label: 'triage' },
   { to: '/results', icon: BarChart3, label: 'results' },
+  { to: '/chatbot', icon: MessageCircle, label: 'chatbot' },
   { to: '/dashboard', icon: LayoutDashboard, label: 'dashboard' },
   { to: '/navigation', icon: MapPin, label: 'navigation' },
   { to: '/booking', icon: CalendarCheck, label: 'booking' },
