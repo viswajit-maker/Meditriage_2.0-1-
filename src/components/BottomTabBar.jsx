@@ -4,16 +4,16 @@ import {
   ClipboardList,
   BarChart3,
   LayoutDashboard,
-  MapPin,
+  MessageCircle,
 } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 
 const tabs = [
   { to: '/', icon: Home, label: 'home' },
   { to: '/triage', icon: ClipboardList, label: 'triage' },
+  { to: '/chatbot', icon: MessageCircle, label: 'chatbot' },
   { to: '/results', icon: BarChart3, label: 'results' },
   { to: '/dashboard', icon: LayoutDashboard, label: 'dashboard' },
-  { to: '/navigation', icon: MapPin, label: 'navigation' },
 ];
 
 export default function BottomTabBar() {

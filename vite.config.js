@@ -9,7 +9,7 @@ export default defineConfig({
     {
       name: 'start-meditriage-backend',
       configureServer(server) {
-        const backend = spawn('python', ['-u', 'backend/app.py'], {
+        const backend = spawn('python', ['-u', 'backend/chatbot/chatbot_server.py'], {
           cwd: process.cwd(),
           stdio: 'inherit',
           shell: process.platform === 'win32',
@@ -21,10 +21,9 @@ export default defineConfig({
   ],
   server: {
     proxy: {
-      '/api': {
-        target: 'http://127.0.0.1:5051',
+      '/chatbot': {
+        target: 'http://127.0.0.1:8001',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ''),
       },
     },
   },
